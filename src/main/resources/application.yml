@@ -4,4 +4,6 @@ logging:
       transaction.interceptor: trace
       jdbc.datasource.DataSourceTransactionManager: debug
       orm.jpa.JpaTransactionManager: debug
-    org.hibernate.resource.transaction: debug
+    org.hibernate:
+      resource.transaction: debug
+      SQL: debug
